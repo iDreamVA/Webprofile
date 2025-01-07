@@ -128,14 +128,21 @@ a:hover::after {
   display: flex;
   justify-content: center;
 }
-.aboutme {/*ต้องแก้ตรงนี้ย้ายโค้ดaboutมานี่*/
+.aboutme {
   margin-top: 5%;
   font: bolder;
   font-size: 50px;
+  line-height: 2;
   transition: transform 0.3s,box-shadow 0.3s;
   position: relative;
   z-index: 2;
   width: 350px;
+}
+
+.aboutme p {
+  width: fit-content;
+  padding: 10px;
+  line-height: 1.8;
 }
 
 #gallery {
