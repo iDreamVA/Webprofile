@@ -102,6 +102,7 @@ a:hover::after {
 }
 
 #about { /* Blue for Home */
+  display: flex;
   height: 100vh;
 }
 
@@ -133,6 +134,7 @@ a:hover::after {
   color: #ffffff;
   width: fit-content;
 }
+
 #gallery {
   height: 100vh;
 }
