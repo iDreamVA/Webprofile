@@ -170,6 +170,7 @@ a:hover::after {
 
 #activity {
   height: 100vh;
+  margin: 5%;
 }
 
 .activity {
@@ -188,7 +189,7 @@ a:hover::after {
 }
 
 .work ul{
-  width: 200px;
+  width: 500px;
   background: rgba(255, 255, 255, 0.9);
   color: #000;
   border-radius: 10px;
