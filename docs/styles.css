@@ -101,37 +101,18 @@ a:hover::after {
   font-size: 15px;
 }
 
-.aboutme {/*ต้องแก้ตรงนี้ย้ายโค้ดaboutมานี่*/
-  font: bolder;
-  font-size: 50px;
-  color: #ffffff;
-  transition: transform 0.3s,box-shadow 0.3s;
-  z-index: 2;
-  width: 350px;
-}
-
-.description {
-  flex: 1;
-  font-size: 18px;
-  line-height: 0.8;
-  color: #ffffff;
-  width: fit-content;
-}
-
-#about {
-  background-color: #dde1e863; /* Blue for Home */
+#about { /* Blue for Home */
   height: 100vh;
 }
-.about1 {
-  margin:5%;
-  flex: 2;
-  display: flex;
-  justify-content: center;
+
+.story {
+  margin: 5%;
 }
+
 .aboutme {
-  margin-top: 5%;
   font: bolder;
   font-size: 50px;
+  color: #ffffff;
   line-height: 2;
   transition: transform 0.3s,box-shadow 0.3s;
   position: relative;
@@ -145,6 +126,13 @@ a:hover::after {
   line-height: 1.8;
 }
 
+.description {
+  flex: 1;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #ffffff;
+  width: fit-content;
+}
 #gallery {
   height: 100vh;
 }
