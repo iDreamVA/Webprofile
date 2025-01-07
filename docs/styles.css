@@ -102,12 +102,11 @@ a:hover::after {
 }
 
 #about { /* Blue for Home */
-  display: flex;
-  height: 100vh;
+  height: auto;
 }
 
 .story {
-  margin: 5%;
+  display: flex;
 }
 
 .aboutme {
@@ -128,11 +127,20 @@ a:hover::after {
 }
 
 .description {
+  margin: 2%;
   flex: 1;
   font-size: 18px;
   line-height: 0.8;
   color: #ffffff;
   width: fit-content;
+}
+
+.description ca {
+  margin: 2%;
+}
+
+.description p {
+  line-height: 1.2;
 }
 
 #gallery {
