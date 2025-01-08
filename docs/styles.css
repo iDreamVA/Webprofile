@@ -148,6 +148,7 @@ a:hover::after {
 }
 
 .gallery-grid {
+  width: 100vh;
   display: flex;
   justify-content: center;
   gap: 20px;
