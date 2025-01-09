@@ -129,6 +129,7 @@ a:hover::after {
 }
 
 .description p {
+  font-family: "Kanit", serif;
   font-size: 18px;
   color: #ffffff;
   width: fit-content;
@@ -287,75 +288,85 @@ footer {
   }
 }
 
-  @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
 
-    header {
-      display: grid;
-    }
-    nav{
-      margin:1px;
-    }
-    nav ul li {
-    justify-content: center;
-    margin: 0 10px;
-    }
-    nav .about p {
-      font-size: 8px;
-    }
-    .date-time{
-      margin-inline:5vh;
-    }
-    p {
-      font-size: 12px;
-    }
-    a {
-      font-size:1em;
-    }
-    
+  header {
+    display: grid;
+  }
+  nav{
+    margin:1px;
+  }
+  nav ul li {
+  justify-content: center;
+  margin: 0 10px;
+  }
+  nav .about p {
+    font-size: 8px;
+  }
+  .date-time{
+    margin-inline:5vh;
+  }
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-size:1em;
+  }
+  
   #home {
     display:grid;
     height:auto;
     width:100vh;
   }
   .story {
+    display: inline;
     height:auto;
-    width:auto;
-    margin-inline:8vh;
+    width:50vh;
+  }
+  .description {
+    margin-inline:0px;
   }
   .storyy {
+    display: flex;
     width:auto;
     height:50vh;
-    margin:5%;
+    margin-block:initial;
   }
   .name {
     position: absolute;
     bottom: 20vh;
     right:5vh;
   }
-  .name img{
+  .name img {
     width:200px;
   }
-  .profile{
-    margin-top:100px;
-    margin-right:20px;
-    margin-left:0px;
+  
+  .profile {
+    margin-block:initial;
   }
-  .profile img {
-    max-width: 100%;
-    height: auto; 
+  
+  .popup img {
     display: block;
   }
-  .popup.carda{
+  .popup.carda {
+    margin-inline:1vh;
+    margin-top:2%;
     width:120px;
-    position:absolute;
+    height:160px;
+    position:initial;
   }
   .popup.cardb{
+    margin-inline:1vh;
+    margin-top:2%;
     width:120px;
-    margin-top:2vh;
-    position:absolute;
+    height:160px;
+    position:initial;
   }
   .popup.cardc{
+    margin-inline:1vh;
+    margin-top:2%;
     width:120px;
-    position:absolute;
+    height:140px;
+    position:initial;
   }
 }
