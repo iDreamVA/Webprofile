@@ -238,6 +238,7 @@ footer {
   background: #333;
   color: #fff;
 }
+
 /*add*/
 @media screen and (max-width: 1200px) {
 
@@ -248,13 +249,13 @@ footer {
     display:host-context;
   }
   nav ul li {
-  margin: 0 10px;
+    margin: 0 10px;
   }
   p {
     font-size: 25px;
   }
   a {
-    font-size:initial;
+    font-size:2em;
   }
   .story {
     width:40vh;
@@ -285,6 +286,9 @@ footer {
   .popup.carda {
     margin-top:-10%;
     margin-left:-8%;
+  }
+  .footer p {
+    font-size: 20px;
   }
 }
 
@@ -355,14 +359,14 @@ footer {
     height:160px;
     position:initial;
   }
-  .popup.cardb{
+  .popup.cardb {
     margin-inline:1vh;
     margin-top:2%;
     width:120px;
     height:160px;
     position:initial;
   }
-  .popup.cardc{
+  .popup.cardc {
     margin-inline:1vh;
     margin-top:2%;
     width:120px;

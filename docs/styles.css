@@ -214,13 +214,13 @@ a:hover::after {
 
 footer {
   text-align: center;
-  padding: 100px;
+  padding: 20px;
   background: #333;
   color: #fff;
 }
 
 /*add*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 
   header {
     justify-content: center;
@@ -229,27 +229,27 @@ footer {
     display:host-context;
   }
   nav ul li {
-  margin: 0 10px;
+    margin: 0 10px;
   }
   p {
-    font-size: 18px;
+    font-size: 15px;
   }
   a {
-    font-size:initial;
+    font-size:2em;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 
   header {
     display: grid;
   }
-  nav{
+  nav {
     margin:1px;
   }
   nav ul li {
-  justify-content: center;
-  margin: 0 10px;
+    justify-content: center;
+    margin: 0 10px;
   }
   nav .about p {
     font-size: 8px;
@@ -264,7 +264,7 @@ footer {
     font-size:1em;
   }
   .story {
-  display: grid;
+    display: grid;
   }
   .description {
     line-height: 0.8;
@@ -272,5 +272,23 @@ footer {
   }
   .description p {
     font-size: 18px;
+  }
+  .work {
+    display:grid;
+    gap: 20px;
+  }  
+  
+  .work ul{
+    display:flex;
+    max-width:60vh;
+  }
+  .work img {
+    height:150px;
+    width:auto;
+  }
+  .work p {
+    flex:1;
+    font-size: auto;
+    text-align:center;
   }
 }
