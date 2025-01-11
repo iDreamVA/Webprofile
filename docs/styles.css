@@ -101,48 +101,6 @@ a:hover::after {
   font-size: 15px;
 }
 
-#about { /* Blue for Home */
-  height: auto;
-}
-
-.story {
-  display: flex;
-}
-
-.aboutme {
-  font: bolder;
-  font-size: 50px;
-  color: #ffffff;
-  line-height: 2;
-  transition: transform 0.3s,box-shadow 0.3s;
-  position: relative;
-  z-index: 2;
-  width: 350px;
-}
-
-.aboutme p {
-  width: fit-content;
-  padding: 10px;
-  line-height: 1.8;
-}
-
-.description {
-  margin: 2%;
-  flex: 1;
-  font-size: 18px;
-  line-height: 0.8;
-  color: #ffffff;
-  width: fit-content;
-}
-
-.description ca {
-  margin: 2%;
-}
-
-.description p {
-  line-height: 1.2;
-}
-
 #gallery {
   height: 100vh;
 }
@@ -262,16 +220,6 @@ footer {
   }
   a {
     font-size:1em;
-  }
-  .story {
-    display: grid;
-  }
-  .description {
-    line-height: 0.8;
-    font-size: 25px;
-  }
-  .description p {
-    font-size: 18px;
   }
   .work {
     display:grid;

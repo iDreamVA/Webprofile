@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #ff0000, #6a7c94);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #33425B;
+    color: #D8E9F0;
+    position: relative;
+  }
+  /*alll*/
+  nav {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    margin: 0rem auto;
+    max-width: 100%;
+  }
+  
+  section h1, section h2 {
+    margin-bottom: 2rem;
+  }
+  
+  section p {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  section image {
+    margin: auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 8%;
+    background: #F33535;
+    transition: width 0.3s ease;
+  }
+  
+  a:hover {
+    color: #F33535;
+    transform: scale(1.2);
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+  
+  .date-time {
+    margin-right: 60px;
+    color: #D8E9F0;
+    font-size: 15px;
+  }
+  
+  #about {
+    line-height: 0.8;
+  }
+  
+  .history {
+    display:grid;
+  }
+  
+  .story {
+    display:flex;
+  }
+  
+  .description {
+    margin: 2%;
+    flex: 1;
+    color: #ffffff;
+    width: fit-content;
+  }
+
+  .description h2 {
+    margin: 2%;
+  }
+  
+  .description p {
+    line-height: 1.0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  /*add*/
+  @media screen and (max-width: 1200px) {
+  
+    header {
+      justify-content: center;
+    }
+    nav {
+      display:host-context;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    p {
+      font-size: 15px;
+    }
+    a {
+      font-size:2em;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+  
+    header {
+      display: grid;
+    }
+    nav {
+      margin:1px;
+    }
+    nav ul li {
+      justify-content: center;
+      margin: 0 10px;
+    }
+    nav .about p {
+      font-size: 8px;
+    }
+    .date-time{
+      margin-inline:5vh;
+    }
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size:1em;
+    }
+    .story {
+      display: grid;
+    }
+    .description {
+      line-height: 0.8;
+      font-size: 25px;
+    }
+    .description p {
+      font-size: 18px;
+    }
+  }
